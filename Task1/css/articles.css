@@ -1,0 +1,48 @@
+.article-container {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.border-container {
+    /* border: 1px solid red;
+    height: 20px; */
+    display: grid;
+    grid-template-columns: 1fr 4.3fr;
+    margin-top: -23px;
+}
+
+
+
+.border-line {
+    border: 1px solid #b2b2b2;
+}
+
+.article-language-text {
+    /* border: 1px solid black; */
+    text-align: end;
+    text-decoration: none;
+    color: blue;
+    font-weight: 600;
+
+}
+
+.article-heading-text {
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 31px;
+    font-weight: 400;
+}
+
+.article-language-text-1 {
+    /* border: 1px solid red; */
+    width: 100px;
+    height: 100px;
+    padding: 8px;
+}
+
+.article-language-text-1:hover {
+    background-color: #dee6fd;
+    padding: 8px;
+}

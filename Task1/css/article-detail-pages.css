@@ -1,0 +1,439 @@
+.article-details-main {
+    /* border: 1px solid black; */
+    height: 600px;
+}
+
+.article-details {
+    /* border: 1px solid red; */
+    height: 700px;
+}
+
+.page-heading {
+    /* border: 1px solid red; */
+    margin: auto;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-heading-dec {
+    text-decoration: none;
+    color: #4c79d2;
+}
+
+.page-heading-dec-1 {
+    color: black;
+    text-decoration: underline;
+}
+
+.page-heading-dec-2 {
+    color: black;
+}
+
+.borderline-page-heading {
+    border: 1px solid #0000004d;
+    margin-top: -13px;
+    margin-left: 14px;
+    margin-right: 18px;
+}
+
+.article-details-text {
+    /* border: 1px solid red; */
+    height: auto;
+    display: grid;
+    grid-template-columns: 100fr 50% 30%;
+
+}
+
+.information-text-heading {
+    /* border: 1px solid red; */
+    /* background-color: #0d182f; */
+    height: 70px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+
+.information-text {
+    /* border: 1px solid red; */
+    /* background-color: #4c79d2; */
+    /* height: 100px; */
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+
+.information-img {
+    border: 1px solid black;
+    background-color: #ffffff;
+    height: 790px;
+}
+
+i #information-text-p {
+    font-style: italic;
+}
+
+#information-text-h {
+    margin-top: 10px;
+}
+
+.para-1 {
+    margin-top: 8px;
+    line-height: 1.6;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.img-heading-main {
+    background-color: #ebebd4;
+    border: 1px solid #e9e9d3;
+    margin: 7px;
+}
+
+.img-heading-text {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 14px;
+    margin: 8px;
+
+}
+
+#Ma {
+    text-decoration: none;
+    color: blue;
+    margin-left: 0;
+}
+
+.color-text {
+    border: 1px solid black;
+    display: grid;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.color-text-under {
+    margin: 4px;
+    padding: 0;
+}
+
+.color-1 {
+    margin: auto 0;
+    padding: 0px 3px;
+    background-image: linear-gradient(to right, white, orange);
+}
+
+.color-2 {
+    margin: auto 0;
+    padding: 0px 3px;
+    background-color: #7fa056;
+}
+
+.color-3 {
+    margin: auto 0;
+    padding: 0px 3px;
+    background-color: #009270;
+}
+
+.color-4 {
+    margin: auto 0;
+    padding: 0px 3px;
+    background-color: #b3e1b6;
+}
+
+.color-5 {
+    margin: auto 0;
+    padding: 0px 3px;
+    background-color: darkgoldenrod;
+}
+
+.color-6 {
+    margin: auto 0;
+    padding: 0px 3px;
+    background-color: #67a599;
+}
+
+.color-7 {
+    margin: auto 0;
+    padding: 0px 3px;
+    background-color: red;
+}
+
+.color-8 {
+    margin: auto 0;
+    padding: 0px 3px;
+    background-color: #812b92;
+}
+
+.color-9 {
+    margin: auto 0;
+    padding: 0px 3px;
+    background-color: #34b2c9;
+}
+
+.color-10 {
+    margin: auto 0;
+    padding: 0px 3px;
+    background-color: greenyellow;
+}
+
+.color-11 {
+    margin: auto 0;
+    padding: 0px 3px;
+    background-color: orange;
+}
+
+.color-12 {
+    margin: auto 0;
+    padding: 0px 3px;
+    background-color: yellow;
+}
+
+#img-heading-text-end {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.img-1 {
+    /* border: 1px solid black; */
+    margin: 7px;
+
+}
+
+#img-1-set {
+    width: 100%;
+    margin: auto;
+
+}
+
+.img-1-details {
+    font-size: 14px;
+    text-align: center;
+}
+
+#img-1-detaiks-main-heading-1 {
+    text-align: center;
+    font-size: 15px;
+    margin: 8px;
+    margin-left: -19px;
+    margin-right: -19px;
+    background-color: #ebebd4;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.img-table-col {
+    padding-left: 20px;
+}
+
+.img-1-other-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-1-name-styling,
+.img-1-name-ans-styling {
+    padding-bottom: 8px;
+}
+
+.img-1-name-ans {
+    color: blue;
+}
+
+.description-container {
+    margin: 0px;
+}
+
+.description-heading {
+    font-weight: 300;
+    font-size: 23px;
+}
+
+.description-edit {
+    margin: 0;
+}
+
+.description-border-line {
+    border: 1px solid #0000004d;
+    margin-top: -20px;
+}
+
+.description-edit {
+    font-size: 14px;
+    color: blue;
+}
+
+.groups-included {
+    background-color: #ebebd4;
+    margin-top: -16px;
+    height: 22px;
+}
+
+.groups-included-1 {
+    text-align: center;
+    font-size: 16px;
+}
+
+.groups-included-2 {
+    text-align: center;
+    font-size: 16px;
+    padding: 3px;
+}
+
+.groups-included-ul {
+    margin-left: 0;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.groups-included-li {
+    margin-left: 0;
+    text-decoration: none;
+    color: blue;
+}
+
+.groups-included-next {
+    background-color: #ebebd4;
+    height: 43px;
+}
+
+#Cladistically {
+    text-decoration: none;
+    color: blue;
+    margin-right: 0px;
+}
+
+.img-insert {
+    background-color: #f8f9fa;
+    border: 1px solid black;
+    height: 241px;
+    width: 310px;
+    margin-top: 11px;
+}
+
+.img-2 {
+    margin-top: 10px;
+    height: 196px;
+    background-repeat: no-repeat;
+    background-image: url(../Images/The_Magnificent_Peafowl.jpg);
+}
+
+.img-2-info {
+    margin-top: -5px;
+    font-size: 15px;
+}
+
+.img-insert-1 {
+    background-color: #f8f9fa;
+    border: 1px solid black;
+    height: 432px;
+    ;
+    width: 310px;
+    margin-top: 11px;
+}
+
+.img-3 {
+    margin-top: 10px;
+    height: 424px;
+    background-repeat: no-repeat;
+    background-image: url(../Images/Female_Pefowl_001.jpg);
+}
+
+.img-insert-2 {
+    background-color: #f8f9fa;
+    border: 1px solid black;
+    height: 437px;
+    width: 310px;
+    margin-top: 11px;
+}
+
+.img-4 {
+    margin-top: 10px;
+    height: 411px;
+    background-repeat: no-repeat;
+    background-image: url(../Images/Eggs_of_Peafowl_at_Aravath_Kasaragod.jpg);
+}
+
+.img-insert-3 {
+    background-color: #f8f9fa;
+    border: 1px solid black;
+    height: 267px;
+    width: 310px;
+    margin-top: 11px;
+}
+
+.img-5 {
+    margin-top: 10px;
+    height: 243px;
+    background-repeat: no-repeat;
+    background-image: url(../Images/330px-Baby_Peacock_\(18131813108\).jpg);
+}
+
+.img-insert-4 {
+    background-color: #f8f9fa;
+    border: 1px solid black;
+    height: 239px;
+    width: 310px;
+    margin-top: 11px;
+}
+
+.img-6 {
+    margin-top: 10px;
+    height: 213px;
+    background-repeat: no-repeat;
+    background-image: url(../Images/Peacock-JS.jpg);
+}
+
+.img-insert-5 {
+    background-color: #f8f9fa;
+    border: 1px solid black;
+    height: 303px;
+    width: 310px;
+    margin-top: 11px;
+}
+
+.img-7 {
+    margin-top: 10px;
+    height: 258px;
+    background-repeat: no-repeat;
+    background-image: url(../Images/Peahen_at_the_zoo.jpg);
+}
+
+.p-italic {
+    font-style: italic;
+    margin-top: -19px;
+}
+
+.Secnd-heading {
+    font-weight: normal;
+    font-size: 17px;
+    margin-top: -18px;
+}
+
+.Secnd-p {
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-top: -5px;
+}
+
+.para-with-img {
+    display: flex;
+    margin: 0;
+}
+
+.paraImg {
+    height: 233px;
+    width: 240px;
+    margin-top: 12px;
+}
+.para-img-border{
+border: 1px solid black;
+background-color: #f8f9fa;
+}
+.paraImg-info{
+font-size: 14px;
+  margin-top: 4px;
+}

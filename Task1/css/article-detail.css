@@ -1,0 +1,87 @@
+.article-details-main {
+    margin-top: 10px;
+}
+
+.article-details-container {
+    /* border: 1px solid black; */
+    margin: auto;
+    width: 100%;
+    /* height: 330px; */
+    display: grid;
+    grid-template-columns: 1fr 4.2fr;
+}
+
+.aside-container {
+    /* border: 1px solid black; */
+    margin: auto;
+    width: 100%;
+    height: 686px;
+    overflow: scroll;
+    
+}
+
+.article-details {
+    /* border: 1px solid black; */
+    margin: auto;
+    width: 100%;
+    height: 470px;
+}
+
+.aside-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -21px;
+}
+
+.aside-border-line {
+    border: 1px solid #0000004d;
+    width: 85%;
+    margin: auto;
+    margin-top: -17px;
+}
+.aside-sub-header {
+    margin-top: -27px;
+}
+
+#aside-header-link-text {
+    text-decoration: none;
+    background-color: #00000017;
+    padding: 2px;
+    font-size: 15px;
+    width: 34px;
+    text-align: center;
+}
+#aside-header-link-text:hover{
+    background-color: transparent;
+}
+
+.aside-header-ul {
+    padding-top: 4px;
+    margin-top: -37px;
+    margin-left: -37px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.aside-text-dec{
+    text-decoration: none;
+    color: #4c79d2;
+}
+.aside-subheader-listitem{
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+}
+.aside-header-ul-1{
+    padding-top: 32px;
+}
+
+.aside-subheader-listitem :hover{
+    text-decoration: underline;
+    color: black;
+}
+.aside-text-dec:hover{
+    text-decoration: underline;
+    color: black;
+}
